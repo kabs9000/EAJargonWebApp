@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EA Jargon Dictionary</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Effective Altruism Jargon Dictionary</h1>
+        <!-- High Contrast Mode Toggle -->
+        <button id="contrastToggle">Toggle High Contrast Mode</button>
+        <input type="text" id="searchBar" placeholder="Search for a term...">
+        <table id="jargonTable">
+            <thead>
+                <tr>
+                    <th>Term</th>
+                    <th>Definition</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Words and definitions will be populated here by the JS -->
+            </tbody>
+        </table>
+        <!-- Form for adding new terms and definitions -->
+        <h2>Add a New Term</h2>
+        <input type="text" id="newWord" placeholder="New Term">
+        <textarea id="newDefinition" placeholder="Definition" rows="3"></textarea>
+        <button id="addButton">Add Term</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
